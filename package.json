@@ -1,0 +1,28 @@
+{
+  "name": "curso-node-kpacheco",
+  "version": "1.0.0",
+  "description": "Curso para aprender nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kepalez/practicas-nodejs.git"
+  },
+  "keywords": [
+    "curso",
+    "node",
+    "nodejs",
+    "kevinpacheco"
+  ],
+  "author": "Kevin Demian Pacheco González",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kepalez/practicas-nodejs/issues"
+  },
+  "homepage": "https://github.com/Kepalez/practicas-nodejs#readme",
+  "dependencies": {
+    "picocolors": "1.0.1"
+  }
+}
