@@ -5,7 +5,8 @@
   "main": "1_http.js",
   "scripts": {
     "dev1": "nodemon 1_http.js",
-    "dev2": "nodemon 2_routing.js"
+    "dev2": "nodemon 2_routing.js",
+    "dev3": "node --watch 3_express.js"
   },
   "keywords": [],
   "author": "",
