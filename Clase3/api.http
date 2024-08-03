@@ -1,0 +1,24 @@
+### Recuperar todas las peliculas
+GET http://localhost:1234/movies
+
+### Recuperar una pelicula por ID
+GET http://localhost:1234/movies/241bf55d-b649-4109-af7c-0e6890ded3fc
+
+### Recuperar todas las peliculas por un genero
+GET http://localhost:1234/movies?genre=Action
+
+### Crear una película con POST
+POST http://localhost:1234/movies
+Content-Type: application/json
+
+{
+    "title": "The Godfather",
+    "year": 1975,
+    "director": "Francis Ford Coppola",
+    "duration": 175,
+    "poster": "https://m.media-amazon.com/images/I/71khjV-MoOS._SY500_.jpg",
+    "genre": [
+      "Crime",
+      "Drama"
+    ]
+}
